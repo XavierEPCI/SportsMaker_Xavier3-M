@@ -1,0 +1,136 @@
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    font-size: 24px; 
+    line-height: 1.5; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #555; 
+    padding: 10px 20px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #777; 
+}
+
+nav ul li a.active {
+    background-color: #ff6347; 
+}
+
+main {
+    padding: 20px;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.coluna {
+    display: flex; 
+    flex-direction: column; 
+    margin-bottom: 20px; 
+}
+
+.sub-logo {
+    width: 100px;
+}
+
+.imagem {
+    width: 100%;
+    max-width: 600px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #555; 
+    color: white;
+    position: relative;
+    bottom: 0;
+    font-size: 20px; 
+}
+
+.imageminicio {
+    position: absolute;
+    top: 185px;
+    right: 85px;
+}
+
+.fotodebasket {
+    width: 700px;
+    position: absolute;
+    top: 230px;
+    right: 130px;
+}
+
+.fotodefutebol {
+    width: 550px;
+    position: absolute;
+    top: 182px;
+    right: 90px;
+}
+
+.fotoderugby {
+    width: 700px;
+    position: absolute;
+    top: 220px;
+    right: 105px;
+}
+
+iframe {
+width: 500px;
+position: absolute;
+top: 175px;
+right: 100px;
+}
+
+.BsktMaker-Logo {
+width: 90px;
+position: absolute;
+top: 600px;
+right: 165px;
+}
+
+.FutMaker-Logo {
+width: 100px;
+position: absolute;
+top: 205px;
+right: 120px;
+}
+
+.RugbyMaker-Logo {
+width: 108px;
+position: absolute;
+top: 600px;
+right: 680px;
+}
